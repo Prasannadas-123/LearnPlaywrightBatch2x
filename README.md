@@ -9,6 +9,7 @@ A personal learning repository for JavaScript fundamentals and Playwright automa
 | `chapter_01_Basics` | Console output, loops, functions, hoisting behaviour, and Node.js runtime commands |
 | `chapter_02_JavaScript_Concepts` | `var` fundamentals, identifier rules, naming conventions, and comment styles |
 | `chapter_03_Indentifier_literals` | VS Code keyboard shortcut references for macOS and Windows |
+| `chapter_04_Javascript_Concepts` | `var`, `let`, and `const`, function basics, scope, and hoisting |
 
 ### `chapter_01_Basics`
 
@@ -24,7 +25,7 @@ A personal learning repository for JavaScript fundamentals and Playwright automa
 | File | Topic |
 | --- | --- |
 | `05_JS_Basics.js` | Declaring and logging a variable |
-| `06_JS_Identifier_Rules.js` | Valid and invalid identifier names |
+| `06_JS_Identifier_Rules.js` | Valid and invalid identifier names, including Unicode and reserved words |
 | `07_Identifier_Part2.js` | Naming conventions: camelCase, snake_case, PascalCase, CONSTANT_CASE, and more |
 | `08_Comment.js` | Single-line, multi-line, and documentation comments |
 
@@ -35,6 +36,20 @@ A personal learning repository for JavaScript fundamentals and Playwright automa
 | `VS_Code_keyword_shortcut_mac.md` | Shortcuts for macOS |
 | `VS_Code_keyword_shortcut_windows.md` | Shortcuts for Windows |
 
+### `chapter_04_Javascript_Concepts`
+
+| File | Topic |
+| --- | --- |
+| `09_var_let_const.js` | Declaring variables with `var`, `let`, and `const` |
+| `10_functions.js` | Defining and calling a function, with and without arguments |
+| `11_var_explained.js` | `var` as a global variable with redeclaration and reassignment |
+| `12_let_people_love.js` | `let` block scoping and why redeclaration fails |
+| `13_const_explained.js` | `const` values and reassignment errors |
+| `14_var_functionScope.js` | `var` function scope versus block scope |
+| `15_letScope.js` | `let` block scope versus function scope |
+| `16_Hosting.js` | Hoisting with `var` and the temporal behaviour of `let` |
+| `17_hosting_funstions.js` | Hoisting inside functions and `undefined` before assignment |
+
 ## Running the Examples
 
 The examples are plain JavaScript and run with Node.js, so no dependencies need to be installed.
@@ -42,6 +57,7 @@ The examples are plain JavaScript and run with Node.js, so no dependencies need 
 ```bash
 node chapter_01_Basics/01_Basics.js
 node chapter_02_JavaScript_Concepts/07_Identifier_Part2.js
+node chapter_04_Javascript_Concepts/09_var_let_const.js
 ```
 
 Check your installed Node.js version with:
