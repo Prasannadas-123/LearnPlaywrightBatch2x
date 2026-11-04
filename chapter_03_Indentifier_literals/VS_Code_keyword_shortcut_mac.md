@@ -164,14 +164,18 @@
 
 | Action | Shortcut |
 | --- | --- |
-| Trigger Suggest | `Cmd + Space` (or `Ctrl + Space`) |
-| Show Parameter Hints | `Cmd + Shift + ,` |
-| Accept Suggestion | `Tab` |
-| Accept Suggestion on Enter | `Cmd + Enter` |
+| Trigger Suggest (autocomplete) | `Ctrl + Space` |
+| Show Parameter Hints | `Cmd + Shift + Space` |
+| Accept Suggestion | `Tab` (or `Enter`) |
+| Accept Suggestion on Enter | `Enter` (when enabled in settings) |
 | Dismiss Suggestion | `Esc` |
-| Open Suggestion Widget | `Cmd + Ctrl + Space` |
-| Toggle Suggest Selection | `Cmd + Space` (in list) |
+| Next Suggestion | `Down` or `Ctrl + N` |
+| Previous Suggestion | `Up` or `Ctrl + P` |
+| Show Suggestion Details | `Cmd + Space` (while the list is open) |
+| Insert Suggestion Without Closing | `Cmd + Enter` |
 | Go to Definition in Suggestion | `Cmd + Right` |
+
+> `Ctrl + Space` is the VS Code default. If nothing happens, macOS Spotlight is using the same shortcut: turn it off in **System Settings → Keyboard → Keyboard Shortcuts → Spotlight**, or rebind VS Code's **Trigger Suggest** in **Keyboard Shortcuts** (`Cmd + K` then `Cmd + S`).
 
 ## Browser and Web (Playwright Related)
 
