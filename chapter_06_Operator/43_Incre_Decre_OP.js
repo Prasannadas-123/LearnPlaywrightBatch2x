@@ -9,6 +9,10 @@ console.log(b);
 console.log(a);
 
 
-
+// De-increment\
+let p = 10;
+let q = p--;
+console.log(p);
+console.log(q);
 
 
