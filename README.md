@@ -112,6 +112,12 @@ A personal learning repository for JavaScript fundamentals and Playwright automa
 | File | Topic |
 | --- | --- |
 | `59_Switch.js` | Switch statement examples |
+| `60_No_Break.js` | Fall-through behaviour when `break` is omitted |
+| `61_Default.js` | `default` case: when it runs and where it can be placed |
+| `62_Real_Time_Example.js` | Switch on API response codes |
+| `63_Switch_Groups.js` | Grouping multiple cases that share one block |
+| `64_IQ.js` | Switch exercise |
+| `65_IQ2.js` | Switch with `true` for range-based grading |
 
 ## Running the Examples
 
